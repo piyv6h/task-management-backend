@@ -18,20 +18,16 @@ Real-Time Communication: Socket.io
 API Testing: Thunder Client / Postman
 
 PROJECT STRUCTURE:
-backend/
-├── config/
-│   └── db.js
-├── controllers/
-│   └── taskController.js
-├── models/
-│   └── Task.js
-├── routes/
-│   └── taskRoutes.js
-├── node_modules/
-├── package.json
-├── package-lock.json
-├── server.js
-├── README.md
+| Folder/File                     | Description                     |
+| ------------------------------- | ------------------------------- |
+| `config/db.js`                  | Database connection setup       |
+| `controllers/taskController.js` | Task-related logic              |
+| `models/Task.js`                | Mongoose task model             |
+| `routes/taskRoutes.js`          | Express routes for tasks        |
+| `node_modules/`                 | Installed dependencies          |
+| `package.json`                  | Project metadata & dependencies |
+| `server.js`                     | Entry point for the server      |
+| `README.md`                     | Project documentation           |
 
 SETUP INSTRUCTIONS:
 1. Clone the repository
